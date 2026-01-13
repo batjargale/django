@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'lms_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'lms_database',          # Database нэр
+        'NAME': 'django',          # Database нэр
         'USER': 'root',              # MySQL хэрэглэгч
         'PASSWORD': '', # MySQL нууц үг
         'HOST': 'localhost',              # MySQL server
